@@ -1,0 +1,166 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+/* GRID WALLPAPERS*/
+.color-black {
+  background-color: #040404; }
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #758992;
+  border-radius: 4px;
+  transition: transform 0.5s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04); } }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px, 1fr;
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense; }
+
+@media (min-width: 900px) {
+  .wide {
+    grid-column: span 3; }
+  .wide2 {
+    grid-column: span 2; }
+  .tall {
+    grid-row: span 4; }
+  .tall-2 {
+    grid-row: span 2; }
+  .row {
+    justify-content: center; } }
+
+
+  @media (max-width: 1800px) {
+    .row {
+      justify-content: center; 
+    
+    }
+     }
+
+#grad1 {
+  display: grid;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #403434);
+  color: white; }
+
+/* GRID WALLPAPERS*/
+.nav-link {
+  display: inline;
+  padding: 0.5rem 1rem; }
+
+div {
+  background-size: cover;
+  margin: 3px; }
+
+/* NAV LIA ACTIVE ; HOVER*/
+.active {
+  background-color: #6c96a7;
+  border-radius: 10px;
+  height: 50px;
+  width: 0px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f6f6f6;
+  font-size: 20px;
+  &:hover{
+    color: rgba(195, 18, 18, 0.7);
+  }
+ }
+
+
+  a {
+    color: #fbf8f8;
+    margin: 15px; 
+    &:hover {
+        color: rgba(195, 18, 18, 0.7);
+        text-decoration: underline; }
+         }
+/* NAV LIA ACTIVE ; HOVER*/
+/* REGISTRO*/
+.text-muted {
+  color: white !important; }
+
+/* REGISTRO*/
+/*PAGINA PRINCIPAL*/
+
+
+.colum-item{
+    max-width: 100%;
+    position: relative;
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  .colum-item--11{
+    @extend .colum-item;
+        height: 750px;
+    }
+
+
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #91a7b1;
+  border-radius: 4px;
+  transition: transform 0.5s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &:hover {
+    filter: opacity(0.9);
+    transform: scale(1.01); }
+ }
+
+
+.btn-1 {
+  position: relative;
+  z-index: 10;
+  bottom: 10vh; }
+/* COLOR DE PAGINA*/
+.color-blue {
+  background-color: #9292d0; }
+
+/* COLOR DE PAGINA*/
+.edit-color {
+  color: #fbfbfb; }
+
+
+/* REGISTRO*/
+#grad2 {
+  display: grid;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #403434);
+  color: white;
+  width: 100%;
+  margin-top: 30px; }
+
+.navbar-nav .nav-link {
+  width: 150px; }
+
+.warning-info {
+  font-size: 20px;
+  margin: 10px; }
+
+.nav-link {
+  padding: .5rem 1rem; }
+
+
+.h1-edit{
+  display: flex;
+  justify-content: center;
+}
